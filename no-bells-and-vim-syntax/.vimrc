@@ -1,5 +1,6 @@
 " Syntax, colors and highlighting: https://mediatemple.net/community/products/dv/204644480/enabling-vi-syntax-colors-and-highlighting
 syntax on
+" The following colorscheme fixes the dark color on bash-comments in putty
 colorscheme desert
 
 " set belloff sourcce: https://stackoverflow.com/questions/18589352/how-to-disable-vim-bells-sounds
