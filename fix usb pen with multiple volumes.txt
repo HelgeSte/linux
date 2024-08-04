@@ -1,0 +1,13 @@
+Had to fix an USB pen that had two simple volumes. In other words, it had a volumes on 4 gb and 10 gb and I wanted to merge the volumes. To fix this, I had to use the diskpart tool and "clean" the storage on the USB pen.
+
+
+Ran cmd as administrator
+diskpart 		# Starts the diskpart tool
+list disk		# List all volumes along with disk-number
+select disk 3		# Selected the disk that I wanted to clean (my USB pen had nr. 3)
+clean
+exit
+
+deretter start->computer management
+opprett nytt enkelt volume (simple volume)
+
